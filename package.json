@@ -2,7 +2,7 @@
   "name": "typescript-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "concurrently": "concurrently \"tsc -w\" \"node --watch dist/index.js\"",
     "dev": "tsx watch src/index.ts",
